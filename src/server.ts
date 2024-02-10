@@ -8,6 +8,7 @@ server.use(express.json())
 server.use('/user', routerUser)
 
 
+
 server.listen(port, () => { 
   console.log(`API running url http://localhost:${port}`)
 })
